@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    display: flex;
+    padding: 40px;
+    width: 288px;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ddmmyy{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+.month-row{
+    border: 1px solid black;
+}
+
+.images{
+  width: 30px;
+  height: 30px;
+   background-color: white;
+}
+
+.month-section{
+    border: 2px solid black;
+}
+
+.ddmmyy-text{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.calendar-button{
+    border: 1px solid black;
+}
+
+.december{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.date-button{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-left: 2px solid black;
+}
+
+.date-image{
+    width: 40px;
+    height: 40px;
+    border-left: 2px solid black;
+    background-color: white;
+}
+
+.month{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 18px;
+    width: 100%;
+}
+
+.weekday-row{
+    display: flex;
+    justify-content: center;
+    padding-left: 3px;
+}
+
+.weekday{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.date{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+}
+
+.calendar{
+    display: flex;
+   width: 40px;
+   height: 40px; 
+   border: 1px solid black;
+   justify-content: center;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
